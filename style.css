@@ -24,6 +24,9 @@ body {
     
     background-color: var(--bg);
 }
+a {
+    color: var(--accent);
+}
 header {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1rem);
@@ -50,6 +53,9 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#about {
+    text-align: center;
 }
 .carousel {
     position: relative;
