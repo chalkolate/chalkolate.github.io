@@ -68,5 +68,7 @@ header img {
 }
 .carousel img {
     height: 100%;
+    max-width: 100%;
+    object-fit: contain;
     scroll-snap-align: start;
 }
